@@ -1,1 +1,1 @@
-# codewars_tasks_8kyu
+Здесь будут решения задач с codewars уровня 8kyu 
