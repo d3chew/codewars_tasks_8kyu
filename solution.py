@@ -24,7 +24,7 @@ def function4(arr):
 
 #Задача №5
 def function5(string):
-    return string(::-1)
+    return string[::-1]
 
 #Задача №6
 def function6(num):
@@ -100,8 +100,47 @@ def function19(flow1,flow2):
 #import math 
 def function20(year):
     return math.ceil(year / 100)
-#Задача №
-#Задача №
+
+#Задача №21
+def function21(arr):
+    return f"found the needle at position {arr.index("needle")}" 
+
+#Задача №22
+def function22(arr):
+    return sum(arr) 
+
+#Задача23
+def function23(name):
+    return f"{name} plays banjo" if name[0].lower == 'p' else f"{name} does not play banjo" 
+
+#Задача24
+def function24(n,m):
+    return n*m if (n >= 0 and m >= 0) else 0 
+
+#Задача25
+def function25(arr):
+    return [x*2 for x in arr] 
+
+#Задача26
+def function26(arr,your_result):
+    return sum(arr) / len(arr) < your_result 
+
+#Задача27 
+def function27(n,x,y):
+    return n % x == 0 and n % y == 0  
+
+#Задача28
+def function(arr):
+    return [-x for x in arr]
+
+#Задача29
+def function29(arr):
+    return [sum(1 for x in arr if x > 0), sum(x for x in arr if x < 0)]if arr else []
+
+#Задача30 
+def function30(words):
+    return " ".join(words)
+
 
 
 
